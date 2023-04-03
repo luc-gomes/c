@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+sudo apt-get install build-essential gnome-devel
+
+
+
+
+executar
+
+gcc $(pkg-config --cflags gtk4) -o hello-world-gtk hello-world-gtk.c $(pkg-config --libs gtk4)
+
